@@ -12,6 +12,6 @@ My name is Wadood Jamal and I am a Flutter Developer from Pakistan. Currently pu
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WadoodJamal&layout=compact&theme=vision-friendly-dark" />
 </a>
 <a href="https://github.com/WadoodJamal/WadoodJamal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=WadoodJamal&count_private=true&show_icons=true&theme=merko" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=WadoodJamal&count_private=true&include_all_commits=true&show_icons=true&theme=merko" />
 </a>
 
