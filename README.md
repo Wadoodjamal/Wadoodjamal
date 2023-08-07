@@ -14,4 +14,22 @@ My name is Wadood Jamal and I am a Flutter Developer from Pakistan. Currently pu
 
 ![Wadood Jamal's GitHub stats](https://github-readme-stats-testing.vercel.app/api?username=wadoodjamal&count_private=true&theme=merko&show_icons=true&include_all_commits=true)
 
+<div align="center">
+  <a href="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/0-profile-details.svg">
+    <img src="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Wadood Jamal Profile Summary Card">
+  </a>
+  <a href="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/1-repos-per-language.svg">
+    <img src="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Wadood Jamal Profile Summary Card">
+  </a>
+  <a href="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/2-most-commit-language.svg">
+    <img src="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Wadood Jamal Profile Summary Card">
+  </a>
+  <a href="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/3-stats.svg">
+    <img src="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/3-stats.svg" alt="Wadood Jamal Profile Summary Card">
+  </a>
+  <a href="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/4-productive-time.svg">
+    <img src="https://github.com/wadoodjamal/wadoodjamal/blob/main/profile-summary-card-output/github_dark/4-productive-time.svg" alt="Wadood Jamal Profile Summary Card">
+  </a>
+</div>
+
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=wadoodjamal&count_private=true&theme=merko&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
