@@ -1,5 +1,5 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
-My name is Wadood Jamal and I am a Flutter Developer from Pakistan. Currently pursuing my Bachelors in Computer Science from COMSATS University Islamabad. Other than Mobile Application Development with Flutter, I'm skilled in Python, Java, Dart, Javascript, and Android Studio.
+My name is Wadood Jamal and I am a Flutter Developer from Pakistan. Currently pursuing my Bachelor in Computer Science from COMSATS University Islamabad. Other than Mobile Application Development with Flutter, I'm skilled in Python, Java, Dart, Javascript, and Android Studio.
 
 - 📫 How to reach me **wadoodjamal54@gmail.com**
 
