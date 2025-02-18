@@ -21,6 +21,9 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: ./output/github-contribution-grid-snake.svg
           gif_out_path: ./output/github-contribution-grid-snake.gif  
+          color_snake: blue 
+          color_dots: yellow  
+          pixel_size: 10 
 
       - name: Ensure output directory exists
         run: mkdir -p output
