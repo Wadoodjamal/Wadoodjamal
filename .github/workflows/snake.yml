@@ -21,10 +21,19 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: ./output/github-contribution-grid-snake.svg
 
-      - name: Deploy snake
+      - name: Ensure output directory exists
+        run: mkdir -p output
+
+      - name: Fix file permissions
+        run: chmod -R u+rwX output
+
+      - name: Clean previous deployment worktree
+        run: git worktree prune || true
+
+      - name: Deploy snake animation
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
+          branch: gh-pages  
           folder: ./output
           token: ${{ secrets.GITHUB_TOKEN }}
           clean: true
