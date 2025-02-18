@@ -13,6 +13,6 @@ My name is Wadood Jamal and I am a Flutter Developer from Pakistan. Currently pu
 </a>
 
 ## 🐍 Contribution Snake
-![Snake animation](https://raw.githubusercontent.com/Wadoodjamal/Wadoodjamal/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Wadoodjamal/Wadoodjamal/main/output/github-contribution-grid-snake.svg)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=wadoodjamal&count_private=true&theme=merko&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
