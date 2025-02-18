@@ -9,16 +9,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 
-
-      - name: Create output directory
-        run: mkdir -p ./output
 
       - name: Generate snake
         uses: Platane/snk@master
@@ -29,6 +24,12 @@ jobs:
       - name: Deploy snake
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main  
+          branch: main
           folder: ./output
-          token: ${{ secrets.GITHUB_TOKEN }}  # Explicitly pass the token
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          clean: true
+          clean-exclude: |
+            README.md
+            .gitignore
+            LICENSE 
