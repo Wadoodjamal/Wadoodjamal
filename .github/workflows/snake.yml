@@ -19,7 +19,7 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_path: ./output/github-contribution-grid-snake.svg
+          svg_out_path: ./output/github-contribution-grid-snake.svg
 
       - name: Deploy snake
         uses: JamesIves/github-pages-deploy-action@v4
@@ -32,4 +32,5 @@ jobs:
           clean-exclude: |
             README.md
             .gitignore
-            LICENSE 
+            LICENSE
+            output/**  # Preserve folder even if empty
