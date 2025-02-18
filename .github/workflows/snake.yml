@@ -27,10 +27,9 @@ jobs:
           branch: main
           folder: ./output
           token: ${{ secrets.GITHUB_TOKEN }}
-          
           clean: true
           clean-exclude: |
             README.md
             .gitignore
             LICENSE
-            output/**  # Preserve folder even if empty
+            output/
