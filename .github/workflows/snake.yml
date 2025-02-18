@@ -2,8 +2,9 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # Allow manual runs
 
 jobs:
   generate:
@@ -11,20 +12,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Create the output folder first
-      - name: Create output directory
-        run: mkdir -p ./output
-
-      # Generate the snake SVG
-      - name: Generate snake
-        uses: Platane/snk@master
+      - uses: Platane/snk@master
         with:
-          github_user_name: ${{ github.Wadoodjamal }}
+          Wadoodjamal: ${{ github.Wadoodjamal }}
           svg_path: ./output/github-contribution-grid-snake.svg
-
-      # Deploy the SVG to the repo
-      - name: Deploy snake
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main 
-          folder: ./output
+          branch: main #
+          folder: ./output #
