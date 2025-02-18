@@ -2,21 +2,33 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
-  workflow_dispatch: # Allow manual runs
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  
+
     steps:
-      - uses: Platane/snk@master
+      - name: Checkout repo
+        uses: actions/checkout@v4
         with:
-          Wadoodjamal: ${{ github.Wadoodjamal }}
+          fetch-depth: 0 
+
+      - name: Create output directory
+        run: mkdir -p ./output
+
+      - name: Generate snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.Wadoodjamal }}
           svg_path: ./output/github-contribution-grid-snake.svg
-      - uses: JamesIves/github-pages-deploy-action@v4
+
+      - name: Deploy snake
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main #
-          folder: ./output #
+          branch: main  
+          folder: ./output
+          token: ${{ secrets.GITHUB_TOKEN }}  # Explicitly pass the token
