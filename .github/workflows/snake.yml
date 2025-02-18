@@ -24,9 +24,6 @@ jobs:
       - name: Ensure output directory exists
         run: mkdir -p output
 
-      - name: Fix file permissions
-        run: chmod -R u+rwX output
-
       - name: Clean previous deployment worktree
         run: git worktree prune || true
 
