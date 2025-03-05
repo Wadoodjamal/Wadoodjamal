@@ -19,9 +19,6 @@ I have developed multiple applications from scratch and have **working knowledge
   <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
   </a>
-  <a href="https://realm.io/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/realm/realm-icon.svg" alt="Realm Database" width="40" height="40"/>
-  </a>
   <a href="https://developer.android.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="40" height="40"/>
   </a>
