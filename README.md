@@ -2,8 +2,6 @@
 
 I'm **Wadood Jamal**, a **Flutter Developer** from Pakistan with expertise in building scalable, high-performance mobile applications. My experience includes **Flutter, Riverpod, Firebase, Realm, and REST APIs**, focusing on **state management, app architecture, and performance optimization**.  
 
-I have developed multiple applications from scratch and have **working knowledge** of **Python, Java, Dart, and JavaScript**.  
-
 ## 📬 Get in Touch  
 📧 **wadoodjamal54@gmail.com**  
 💼 **[LinkedIn](https://www.linkedin.com/in/wadood-jamal/)**  
