@@ -22,8 +22,6 @@ I have developed multiple applications from scratch and have **working knowledge
   <a href="https://realm.io/" target="_blank" rel="noreferrer">
     <img src="https://avatars.githubusercontent.com/u/1854085?s=200&v=4" alt="Realm Database" width="40" height="40"/>
   </a>
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="40" height="40"/>
   </a>
   <a href="https://kotlinlang.org" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" width="40" height="40"/>
